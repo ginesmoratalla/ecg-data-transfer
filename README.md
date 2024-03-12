@@ -3,9 +3,9 @@
 Coursework Project for **Computer Networks** university module.
 
 Electrocardiogram-simulated data is sent through the network using WebSockets:
-- **Client** sends a serialized message containing patient details (ecg data, height, weight...)
-- **Broker** receives it and maps it to a doctor
-- **Doctor** receives the message, deserializes it, and plots it into its simulator
+- **Client** (client.py) sends a serialized message containing patient details (ecg data, height, weight...)
+- **Broker** (broker.py) receives it and maps it to a doctor
+- **Doctor** (doctor.py) receives the message, deserializes it, and plots it into its simulator
 
 ## Developers
 [Andrejs Bagdonas](https://github.com/Dreis27), [Gines Moratalla](https://github.com/ginesmoratalla) and [Juozas skarbalius](https://github.com/terahidro2003)
